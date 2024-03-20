@@ -100,9 +100,7 @@ Usage: destroy <class_name> <_id>
 ###### Example 3: Update an object
 Usage: update <class_name> <_id>
 ```
-(hbnb) update BaseModel b405fc64-9724-498f-b405-e4071c3d857f first_name "person"
-(hbnb) show BaseModel b405fc64-9724-498f-b405-e4071c3d857f
-[BaseModel] (b405fc64-9724-498f-b405-e4071c3d857f) {'id': 'b405fc64-9724-498f-b405-e4071c3d857f', 'created_at': datetime.datetime(2020, 2, 18, 14, 33, 45, 729889), 
-'updated_at': datetime.datetime(2020, 2, 18, 14, 33, 45, 729907), 'first_name': 'person'}
+(hbnb) show BaseModel 4cbcb2d4-1ed1-43a8-8f1c-7399394609de
+[BaseModel] (4cbcb2d4-1ed1-43a8-8f1c-7399394609de) {'id': '4cbcb2d4-1ed1-43a8-8f1c-7399394609de', 'created_at': datetime.datetime(2024, 3, 20, 22, 33, 2, 338798), 'updated_at': datetime.datetime(2024, 3, 20, 22, 33, 2, 338900)}
 (hbnb)
 ```
